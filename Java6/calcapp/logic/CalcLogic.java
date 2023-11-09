@@ -1,4 +1,6 @@
+package calcapp.logic;
 //  リスト6-2
+
 
 public class CalcLogic {
     public static int tasu(int a,int b) {

@@ -1,5 +1,8 @@
-//  リスト6-2 6-4
+//  リスト6-2 6-4 6-8
 
+package calcapp.main;
+
+import calcapp.logic.CalcLogic;
 
 public class Calc {
     public static void main(String[] args) {
