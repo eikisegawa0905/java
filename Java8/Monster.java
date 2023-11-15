@@ -1,4 +1,4 @@
-
+package Java8;
 public class Monster {
     int hp;
     final int LEVEL = 10;
