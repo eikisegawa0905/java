@@ -1,4 +1,4 @@
-package Java8;
+package Java10;
 
 
 
@@ -16,16 +16,7 @@ public class Main {
 
         //2.フィールドに初期値をセット
         h.name="ミナト";
-        h.hp=100;
+        h.setHp(100);
         //3.勇者のメソッドを呼び出しておく
-        h.sit(5);
-        h.slip();
-        h.sit(25);
-        h.run();
-        // 冒険の始まり
-        h.slip();
-        m1.run();
-        m2.run();
-        h.run();
-    }
+    }   
 }
