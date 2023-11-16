@@ -5,11 +5,17 @@ public class Hero {
     String name;
     String sword;
     static int money;
-   // public String getName(){
-    //    return this.name;         <リスト10-9
+    
+    public String getName(){
+        return this.name;         //<リスト10-9
+    }
+
     public void setName(String name){
         this.name=name;         //リスト10-10
-        }
+    }
+    public void setHp(int hp){
+        this.hp=hp;
+    }
     void bye(){
         System.out.println("勇者は別れをつげた");
     }
