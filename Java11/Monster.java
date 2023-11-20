@@ -1,10 +1,14 @@
 package Java11;
 public class Monster {
-    int hp;
-    final int LEVEL = 10;
+    int hp=50;
     char suffix;
-void run(){
-    System.out.println("モンスター"+this.suffix+"は、逃げ出した");
-
-    }    
+    public Monster (char suffix){
+        this.suffix=suffix;
+        
+    }
+    public void attack(Hero h){
+        System.out.println("モンスター"+this.suffix+"の攻撃");
+        System.out.println("10のダメージ");
+        h.setHp(h.getHp()-10);
+    }
 }
