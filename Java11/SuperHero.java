@@ -19,4 +19,19 @@ public class SuperHero extends Hero{    //<基本的には、Heroと同じと宣
     public void run(){  //<親クラスに定義してあるが、子クラスで再定義(上書き変更)するメソッド
         System.out.println("撤退した");
     }
+    public void attack(Monster m){  //<11-8
+        //System.out.println(this.name+"の攻撃");
+        //m.hp-=5;
+        //System.out.println("5ダメージ与えた");  //<1回目の攻撃
+        //if(this.flying){
+          //  System.out.println(this.name+"の攻撃");
+            //m.hp-=5;
+            //System.out.println("さらに5ダメージ与えた");    //<2回目の攻撃
+        super.attack(m);      
+        if (this.flying) {
+            super.attack(m);
+            
+        }    
+    }
+    
 }
