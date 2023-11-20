@@ -3,8 +3,10 @@
 package Java11;
 
 public class Hero{
-    String name="ミナト";
-    int hp=100;
+    private String name="ミナト";
+    private int hp=100;
+    public int getHp(){return this.hp;}
+    public void setHp(int hp){this.hp=hp;}          
     //戦う
     public void attack(Monster m){
         System.out.println(this.name+"の攻撃");
