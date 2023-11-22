@@ -13,4 +13,6 @@ public class Wizard extends Character {
         m.hp-=20;
         this.mp-=5;
     }
+    public int getHp(){return this.hp;}
+    public void setHp(int hp){this.hp=hp;}
 }
