@@ -1,4 +1,4 @@
-package Java3;
+
 
 ///　リスト3-6　あえてbreak文を書かない
 
