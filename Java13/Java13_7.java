@@ -9,7 +9,7 @@ public class Java13_7 {
         c[3]=new Wizard();
         c[4]=new Wizard();
         //  宿に泊まる
-        for(Character ch:c){
+        for(Character ch:c){    //<1名ずつ順に取り出し
             ch.setHp(ch.getHp()+50);
         }
 
