@@ -12,4 +12,6 @@ public class Monster {
         System.out.println("10のダメージ");
         h.setHp(h.getHp()-10);
     }
+    public void run() {
+    }
 }
