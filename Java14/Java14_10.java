@@ -1,6 +1,6 @@
 package Java14;
 
-public class Java14_10 {
+public class Java14_10{
     public static void main(String[] args) {
         Hero h1=new Hero();
         h1.name="ミナト";
